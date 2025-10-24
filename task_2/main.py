@@ -1,8 +1,7 @@
-w=0
-n=int(input("Введите количество школьников:"))
-k=int(input("Введите количетсво яблок:"))
-v=k//n 
-if k%n<n:
-   w+=k%n 
-print(n,'школьникам достанется по',v,'яблок каждому')
-print(w,'яблок останется в корзине')  
+korzina=0
+shkolnik=int(input("Введите количество школьников:"))
+yabloki=int(input("Введите количетсво яблок:"))
+kazhdomy=yabloki//shkolnik 
+korzina = yabloki % shkolnik 
+print(shkolnik,'школьникам достанется по',kazhdomy,'яблок каждому')
+print(korzina,'яблок останется в корзине')  
